@@ -199,12 +199,7 @@
     height: 52.78px;
     border-radius: 90.9999px;
     background-color: #1daf7d;
-    background-image: radial-gradient(
-            ellipse 331.94295661711527px 29.323049778610205px at 49.825878982223436px 11.672496052313099px,
-            #ffff 0%,
-            #fff0 100%
-    ),
-    linear-gradient(261.3deg, #38ef7dff 0%, #b46aff00 100%), linear-gradient(177.4deg, #1f1f1fff 0%, #1f1f1f00 100%);
+    background: radial-gradient(13.93% 53.85% at 8.21% 22.12%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(56, 239, 125, 0.2) 5.36%, rgba(180, 106, 255, 0) 84.78%), linear-gradient(176.65deg, rgba(31, 31, 31, 0.2) 2.77%, rgba(31, 31, 31, 0) 62.73%), #1DAF7D;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto, auto, auto;
@@ -669,12 +664,7 @@
     height: 52.78px;
     border-radius: 90.9999px;
     background-color: #1daf7d;
-    background-image: radial-gradient(
-            ellipse 331.94295661711527px 29.323049778610205px at 49.825878982223436px 11.672496052313099px,
-            #ffff 0%,
-            #fff0 100%
-    ),
-    linear-gradient(261.3deg, #38ef7dff 0%, #b46aff00 100%), linear-gradient(177.4deg, #1f1f1fff 0%, #1f1f1f00 100%);
+    background: radial-gradient(13.93% 53.85% at 8.21% 22.12%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(56, 239, 125, 0.2) 5.36%, rgba(180, 106, 255, 0) 84.78%), linear-gradient(176.65deg, rgba(31, 31, 31, 0.2) 2.77%, rgba(31, 31, 31, 0) 62.73%), #1DAF7D;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto, auto, auto;
