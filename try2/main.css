@@ -114,35 +114,34 @@
 }
 
 .rectangle32 {
+    max-width: 500px;
     position: absolute;
     left: 397.5766px;
     top: 445.0638px;
-    width: 117.3474px;
-    height: 46.5343px;
     outline: solid 0 #fff;
     outline-offset: 0;
     border-radius: 55.976px;
     background-color: #1daf7d;
-    background: radial-gradient(13.93% 53.85% at 13.18% 22.12%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(180, 106, 255, 0.6) 5.36%, rgba(91, 132, 194, 0.6) 84.78%), #1DAF7D;
+    background-image: radial-gradient(
+            ellipse 36.57787749606369px 25.28080075514289px at 15.471170648110826px 10.291240024869767px,
+            #ffff 0%,
+            #fff0 100%
+    ),
+    linear-gradient(235.2deg, #b46affff 0%, #5b84c2ff 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto, auto;
 }
-
 .genreTitle {
+    max-width: 500px;
+    padding-left: 30px;
+    padding-right: 70px;
     color: #fff;
     font-size: 16.1858px;
     font-weight: 600;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
-    letter-spacing: -0.005em;
-    position: absolute;
-    left: 428.5995px;
-    top: 458.5519px;
-    width: min-content;
-    height: min-content;
-    white-space: nowrap;
-    flex-direction: column;
+    word-wrap: break-word;
 }
 
 .campaignSummary {
