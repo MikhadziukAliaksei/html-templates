@@ -5,6 +5,7 @@
     width: 1920px;
     height: 1080px;
     background-color: #0a0a0a;
+
 }
 
 .rectangle {
@@ -13,7 +14,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url('assests/rectangle.jpg');
+    background-image: url("assests/Title Page.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +35,21 @@
     background-size: cover;
 }
 
+.image2 {
+    position: absolute;
+    left: 149px;
+    top: 287px;
+    width: 228.9521px;
+    height: 228.9521px;
+    outline: solid 2.6976px #1daf7d;
+    outline-offset: -3px;
+    border-radius: 17.5346px;
+    background-image: url('assests/map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .rectangle2 {
     position: absolute;
     left: 397.5767px;
@@ -44,25 +60,12 @@
     outline-offset: 0;
     border-radius: 55.976px;
     background-color: #b46aff;
-    background-image: radial-gradient(
-            ellipse 118.7730064402166px 25.28080075514289px at 50.23685289622136px 10.291240024869767px,
-            #ffff 0%,
-            #fff0 100%
-    ),
-    radial-gradient(
-            ellipse 169.33957391004148px 68.89001699284943px at 54.028303184837725px 31.768603751846964px,
-            #1f1f1fff 9%,
-            #1f1f1f00 100%
-    ),
-    radial-gradient(
-            ellipse 465.39509444508786px 86.27784247645221px at 300.4732752595243px 12.528497907203157px,
-            #ff9f1cff 0%,
-            #ff9f1c00 100%
-    );
+    background: radial-gradient(13.93% 53.85% at 13.18% 22.12%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(36.07% 147.87% at 14.18% 68.27%, rgba(31, 31, 31, 0.2) 9.16%, rgba(31, 31, 31, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(40.05% 182.05% at 78.86% 26.92%, rgba(255, 159, 28, 0.6) 0%, rgba(255, 159, 28, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #B46AFF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto, auto, auto;
 }
+
 .trackTitle {
     color: #fff;
     font-size: 16.1858px;
@@ -77,6 +80,7 @@
     height: min-content;
     flex-direction: column;
 }
+
 .rectangle3 {
     position: absolute;
     left: 397.5766px;
@@ -87,16 +91,12 @@
     outline-offset: 0;
     border-radius: 55.976px;
     background-color: #1daf7d;
-    background-image: radial-gradient(
-            ellipse 182.93727814889374px 25.853123326760752px at 27.45956948530159px 10.291237857247237px,
-            #ffff 0%,
-            #fff0 100%
-    ),
-    linear-gradient(256.3deg, #38ef7dff 0%, #b46aff00 100%), linear-gradient(178.4deg, #1f1f1fff 0%, #1f1f1f00 100%);
+    background: radial-gradient(13.93% 53.85% at 8.21% 22.12%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(56, 239, 125, 0.2) 5.36%, rgba(180, 106, 255, 0) 84.78%), linear-gradient(176.65deg, rgba(31, 31, 31, 0.2) 2.77%, rgba(31, 31, 31, 0) 62.73%), #1DAF7D;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto, auto, auto;
 }
+
 .artisTitle {
     color: #fff;
     font-size: 16.1858px;
@@ -112,6 +112,7 @@
     white-space: nowrap;
     flex-direction: column;
 }
+
 .rectangle32 {
     position: absolute;
     left: 397.5766px;
@@ -122,16 +123,12 @@
     outline-offset: 0;
     border-radius: 55.976px;
     background-color: #1daf7d;
-    background-image: radial-gradient(
-            ellipse 36.57787749606369px 25.28080075514289px at 15.471170648110826px 10.291240024869767px,
-            #ffff 0%,
-            #fff0 100%
-    ),
-    linear-gradient(235.2deg, #b46affff 0%, #5b84c2ff 100%);
+    background: radial-gradient(13.93% 53.85% at 13.18% 22.12%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(180, 106, 255, 0.6) 5.36%, rgba(91, 132, 194, 0.6) 84.78%), #1DAF7D;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto, auto;
 }
+
 .genreTitle {
     color: #fff;
     font-size: 16.1858px;
@@ -147,6 +144,7 @@
     white-space: nowrap;
     flex-direction: column;
 }
+
 .campaignSummary {
     position: absolute;
     box-sizing: border-box;
@@ -168,6 +166,7 @@
     background-clip: text;
     text-fill-color: transparent;
 }
+
 .rectangle5 {
     position: absolute;
     left: 101.9999px;
@@ -177,6 +176,7 @@
     border-radius: 47.654px;
     background-color: #2e2d2d80;
 }
+
 .vector {
     position: absolute;
     left: 8.4065%;
@@ -185,10 +185,12 @@
     bottom: 10.4201%;
     overflow: visible;
 }
+
 .icon {
     width: 100%;
     height: 100%;
 }
+
 .rectangle52 {
     position: absolute;
     left: 149.3199px;
@@ -207,6 +209,7 @@
     background-repeat: no-repeat;
     background-size: auto, auto, auto;
 }
+
 .targetGeography {
     color: #fff;
     font-size: 21.84px;
@@ -222,6 +225,7 @@
     white-space: nowrap;
     flex-direction: column;
 }
+
 .rectangle53 {
     position: absolute;
     left: 149.3199px;
@@ -240,6 +244,7 @@
     background-repeat: no-repeat;
     background-size: auto, auto, auto;
 }
+
 .targetGeography2 {
     color: #fff;
     font-size: 21.84px;
@@ -255,6 +260,7 @@
     white-space: nowrap;
     flex-direction: column;
 }
+
 .north {
     position: absolute;
     left: 211.1999px;
@@ -263,10 +269,12 @@
     height: 148.33px;
     overflow: visible;
 }
+
 .icon2 {
     width: 100%;
     height: 100%;
 }
+
 .aU {
     position: absolute;
     left: 615.2399px;
@@ -275,10 +283,12 @@
     height: 75.53px;
     overflow: visible;
 }
+
 .icon3 {
     width: 100%;
     height: 100%;
 }
+
 .eU {
     position: absolute;
     left: 428.6899px;
@@ -287,10 +297,12 @@
     height: 89.18px;
     overflow: visible;
 }
+
 .icon4 {
     width: 100%;
     height: 100%;
 }
+
 .south {
     position: absolute;
     left: 301.2899px;
@@ -299,10 +311,12 @@
     height: 83.72px;
     overflow: visible;
 }
+
 .icon5 {
     width: 100%;
     height: 100%;
 }
+
 .rectangle100 {
     position: absolute;
     left: 990px;
@@ -312,6 +326,7 @@
     border-radius: 33px;
     background-color: #1b1b1b;
 }
+
 .group240 {
     position: absolute;
     left: 1018.999px;
@@ -320,6 +335,7 @@
     height: 48px;
     overflow: visible;
 }
+
 .rectangle17 {
     transform-origin: top left;
     position: absolute;
@@ -334,6 +350,7 @@
     background-size: auto;
     transform: matrix(0, 1, -1, 0, 0, 0);
 }
+
 .subtract {
     position: absolute;
     left: 1019.0056px;
@@ -342,10 +359,12 @@
     height: 48.2749px;
     overflow: visible;
 }
+
 .icon7 {
     width: 100%;
     height: 100%;
 }
+
 ._75 {
     transform-origin: top left;
     color: #fff;
@@ -363,6 +382,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .instrumentalness {
     transform-origin: top left;
     color: #fff;
@@ -380,6 +400,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .rectangle18 {
     transform-origin: top left;
     position: absolute;
@@ -394,6 +415,7 @@
     background-size: auto;
     transform: matrix(0, 1, -1, 0, 0, 0);
 }
+
 ._23 {
     transform-origin: top left;
     color: #fff;
@@ -411,6 +433,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .subtract2 {
     position: absolute;
     left: 1019.0009px;
@@ -419,10 +442,12 @@
     height: 48.2749px;
     overflow: visible;
 }
+
 .icon8 {
     width: 100%;
     height: 100%;
 }
+
 .valence {
     transform-origin: top left;
     color: #fff;
@@ -440,6 +465,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .rectangle16 {
     transform-origin: top left;
     position: absolute;
@@ -454,6 +480,7 @@
     background-size: auto;
     transform: matrix(0, 1, -1, 0, 0, 0);
 }
+
 .subtract3 {
     position: absolute;
     left: 1364.9967px;
@@ -462,10 +489,12 @@
     height: 48px;
     overflow: visible;
 }
+
 .icon9 {
     width: 100%;
     height: 100%;
 }
+
 ._62 {
     transform-origin: top left;
     color: #fff;
@@ -483,6 +512,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .speechiness {
     transform-origin: top left;
     color: #fff;
@@ -500,6 +530,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .rectangle172 {
     transform-origin: top left;
     position: absolute;
@@ -514,6 +545,7 @@
     background-size: auto;
     transform: matrix(0, 1, -1, 0, 0, 0);
 }
+
 .subtract4 {
     position: absolute;
     left: 1365.0068px;
@@ -522,10 +554,12 @@
     height: 48.2749px;
     overflow: visible;
 }
+
 .icon10 {
     width: 100%;
     height: 100%;
 }
+
 ._752 {
     transform-origin: top left;
     color: #fff;
@@ -543,6 +577,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .danceability {
     transform-origin: top left;
     color: #fff;
@@ -560,6 +595,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .rectangle182 {
     transform-origin: top left;
     position: absolute;
@@ -574,6 +610,7 @@
     background-size: auto;
     transform: matrix(0, 1, -1, 0, 0, 0);
 }
+
 ._50 {
     transform-origin: top left;
     color: #fff;
@@ -591,6 +628,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .subtract5 {
     position: absolute;
     left: 1365.001px;
@@ -599,10 +637,12 @@
     height: 48.2749px;
     overflow: visible;
 }
+
 .icon11 {
     width: 100%;
     height: 100%;
 }
+
 .energy {
     transform-origin: top left;
     color: #fff;
@@ -620,6 +660,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .rectangle54 {
     position: absolute;
     left: 1045px;
@@ -638,6 +679,7 @@
     background-repeat: no-repeat;
     background-size: auto, auto, auto;
 }
+
 .audioFeatures {
     color: #fff;
     font-size: 21.84px;
@@ -653,6 +695,7 @@
     white-space: nowrap;
     flex-direction: column;
 }
+
 .audioFeature {
     position: absolute;
     left: 1019px;
@@ -661,6 +704,7 @@
     height: 48px;
     align-items: flex-start;
 }
+
 .rectangle101 {
     position: absolute;
     left: 0;
@@ -670,6 +714,7 @@
     border-radius: 100px;
     background-color: #1d4742;
 }
+
 .rectangle102 {
     position: absolute;
     left: 0;
@@ -680,6 +725,7 @@
     background-color: #1f7968;
     box-shadow: 0px 0px 8px 0px #00000073;
 }
+
 ._622 {
     transform-origin: top left;
     color: #fff;
@@ -698,6 +744,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .acousticness {
     transform-origin: top left;
     color: #fff;
@@ -716,6 +763,7 @@
     flex-direction: column;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .frame258 {
     position: absolute;
     left: 526px;
