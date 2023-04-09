@@ -1,0 +1,213 @@
+body{ 
+    background-image: url('assets/Page2Background.png');
+    background-size: cover;
+    border: 3px solid green;   
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 100px;
+    height: 1080px;
+    width: 1920px;
+}
+
+.title{
+    display: block;
+    font-size: 99px;
+    color: #1DAF7D;
+}
+
+.content{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.track-info{
+    display: flex;
+    height: 202px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    padding-left: 284px;
+    width: 100%;
+}
+
+.track-image{
+    width: 196px;
+    height: 202px;
+    display: block;
+    border-radius: 20%;
+    border: 3px solid #1DAF7D;
+}
+
+.detail-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.label{
+    display: block;
+    color : white;
+    height: 27.5px;
+    font-size: 30px;
+    line-height: 27.5px;
+    border-radius: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #1DAF7D;
+}
+
+.target-perfomance-label{
+    position: absolute;
+    right: 71.5px;
+    bottom: 380px;
+    width: 617px;
+}
+
+.map-container{
+    position: relative;
+    margin-top: 80px;
+    width: 760px;
+    height: 403px;
+    background-color: #2e2d2d80;
+    border-radius: 50px;
+}
+
+.map{
+    width: 641px;
+    height: 344px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.area{
+    position: absolute;
+    background: linear-gradient(269.78deg, #1DAF7D 4.03%, #31EB72 99.92%);
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 1.77554px solid #38EF7D;
+}
+
+.north{
+    left: 120px;
+    top: 60px;
+    width: 148.33px;
+    height: 148.33px;
+}
+.south{
+    left: 210px;
+    bottom: 90px;
+    width: 83.72px;
+    height: 83.72px;
+}
+.eu{
+    left: 360px;
+    top: 70px;
+    width: 89.18px;
+    height: 89.18px;
+}
+.au{
+    right: 120px;
+    bottom: 60px;
+    width: 80.53px;
+    height: 80.53px;
+}
+
+.audio-feature-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #2e2d2d80;
+    width: 783px;
+    border-radius: 50px;
+    margin-top: 14px;
+    padding-top: 60px;  
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.audio-feature-label{
+    position: absolute;
+    width: 800px;
+    background-color: #1DAF7D;
+    right: 31.5px;
+    top: -16px;
+}
+
+.audio-feature-item{
+    width: 45%;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+.audio-feature-text{
+    display: inline-block;
+    font-size: 30px;
+    color : white;
+    width: 40%;
+}
+
+.progress-bar{
+    display: inline-block;
+    width: 40%;
+    background-color: gray;
+    border-radius: 50px;
+    height: 20px;
+}
+
+.progress-bar-filled{
+    display: inline-block;
+    background-color: #1DAF7D;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.percentage{
+    display: inline-block;
+    font-size: 30px;
+    color : white;
+}
+
+.target-audience-container{
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #2e2d2d80;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding-right: 150px;
+    padding-left: 150px;
+    max-height: 300px;
+}
+
+.target-audience-label{
+    position: absolute;
+    width: 800px;
+    right: 31.5px;
+    top: -23px;
+}
+
+.target-audience-item{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    color : white;
+    background-color: #1DAF7D;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
