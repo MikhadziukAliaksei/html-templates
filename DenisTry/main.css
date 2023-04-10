@@ -1,7 +1,7 @@
-body{ 
+body {
     background-image: url('assets/Page2Background.png');
     background-size: cover;
-    border: 3px solid green;   
+    border: 3px solid green;
     padding-left: 108px;
     padding-right: 108px;
     padding-top: 100px;
@@ -9,19 +9,32 @@ body{
     width: 1920px;
 }
 
-.title{
-    display: block;
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
     font-size: 99px;
-    color: #1DAF7D;
+    line-height: 121px;
+    align-items: flex-end;
+    letter-spacing: -0.005em;
+    display: block;
+    background: radial-gradient(13.93% 53.85% at 8.21% 22.12%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(56, 239, 125, 0.2) 5.36%, rgba(180, 106, 255, 0) 84.78%), linear-gradient(176.65deg, rgba(31, 31, 31, 0.2) 2.77%, rgba(31, 31, 31, 0) 62.73%), #1DAF7D;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    box-sizing: border-box;
+
 }
 
-.content{
+.content {
+
     display: flex;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-.track-info{
+.track-info {
     display: flex;
     height: 202px;
     width: 100%;
@@ -29,52 +42,63 @@ body{
     align-items: stretch;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
 }
 
-.right{
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
     padding-left: 284px;
     width: 100%;
 }
 
-.track-image{
-    width: 196px;
-    height: 202px;
+.track-image {
+    box-sizing: border-box;
+    width: 228.95px;
+    height: 228.95px;
+    left: 149px;
+    top: 287px;
     display: block;
-    border-radius: 20%;
     border: 3px solid #1DAF7D;
+    border-radius: 17.5346px;
 }
 
-.detail-info{
+.detail-info {
     width: 100%;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.label{
+.label {
     display: block;
-    color : white;
-    height: 27.5px;
-    font-size: 30px;
-    line-height: 27.5px;
-    border-radius: 40px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.84px;
+    line-height: 27px;
     text-align: center;
     padding-bottom: 10px;
+    letter-spacing: -0.005em;
     padding-top: 10px;
-    background-color: #1DAF7D;
+    background: radial-gradient(13.93% 53.85% at 8.21% 22.12%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(56, 239, 125, 0.2) 5.36%, rgba(180, 106, 255, 0) 84.78%), linear-gradient(176.65deg, rgba(31, 31, 31, 0.2) 2.77%, rgba(31, 31, 31, 0) 62.73%), #1DAF7D;
+    border-radius: 90.9999px;
 }
 
-.target-perfomance-label{
+.target-perfomance-label {
     position: absolute;
     right: 71.5px;
     bottom: 380px;
     width: 617px;
 }
 
-.map-container{
+.map-container {
     position: relative;
     margin-top: 80px;
     width: 760px;
@@ -83,14 +107,14 @@ body{
     border-radius: 50px;
 }
 
-.map{
+.map {
     width: 641px;
     height: 344px;
     margin-left: 60px;
     margin-top: 30px;
 }
 
-.area{
+.area {
     position: absolute;
     background: linear-gradient(269.78deg, #1DAF7D 4.03%, #31EB72 99.92%);
     opacity: 0.5;
@@ -98,32 +122,35 @@ body{
     border: 1.77554px solid #38EF7D;
 }
 
-.north{
+.north {
     left: 120px;
     top: 60px;
     width: 148.33px;
     height: 148.33px;
 }
-.south{
+
+.south {
     left: 210px;
     bottom: 90px;
     width: 83.72px;
     height: 83.72px;
 }
-.eu{
+
+.eu {
     left: 360px;
     top: 70px;
     width: 89.18px;
     height: 89.18px;
 }
-.au{
+
+.au {
     right: 120px;
     bottom: 60px;
     width: 80.53px;
     height: 80.53px;
 }
 
-.audio-feature-container{
+.audio-feature-container {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -132,12 +159,12 @@ body{
     width: 783px;
     border-radius: 50px;
     margin-top: 14px;
-    padding-top: 60px;  
+    padding-top: 60px;
     padding-right: 40px;
     padding-left: 40px;
 }
 
-.audio-feature-label{
+.audio-feature-label {
     position: absolute;
     width: 800px;
     background-color: #1DAF7D;
@@ -145,42 +172,45 @@ body{
     top: -16px;
 }
 
-.audio-feature-item{
+.audio-feature-item {
     width: 45%;
     height: 50px;
     margin-bottom: 40px;
 }
 
-.audio-feature-text{
+.audio-feature-text {
     display: inline-block;
-    font-size: 30px;
-    color : white;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
     width: 40%;
 }
 
-.progress-bar{
+.progress-bar {
     display: inline-block;
     width: 40%;
     background-color: gray;
     border-radius: 50px;
     height: 20px;
+
 }
 
-.progress-bar-filled{
+.progress-bar-filled {
     display: inline-block;
     background-color: #1DAF7D;
     height: 100%;
     border-radius: 50px;
 }
 
-.percentage{
+.percentage {
     display: inline-block;
-    font-size: 30px;
-    color : white;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: white;
 }
 
-.target-audience-container{
-    margin-top: 40px;
+.target-audience-container {
+    margin-top: auto;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -193,21 +223,27 @@ body{
     max-height: 300px;
 }
 
-.target-audience-label{
+.target-audience-label {
     position: absolute;
     width: 800px;
     right: 31.5px;
     top: -23px;
+
 }
 
-.target-audience-item{
+.target-audience-item {
     width: 150px;
     height: 30px;
     text-align: center;
     font-size: 25px;
-    color : white;
+    color: white;
     background-color: #1DAF7D;
     border-radius: 50px;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.84px;
+    line-height: 27px;
 }
