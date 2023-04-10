@@ -1,0 +1,89 @@
+* {
+    color: #fff;
+    font-size: 16.1858px;
+    font-weight: 600;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    letter-spacing: -0.005em;
+}
+
+body {
+    background: url(Assets/TestBG.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.main-flex-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+  }
+
+.item-container {
+    display: flex;
+    height: 172px;
+}
+
+.item1 img {
+    height: 170px;
+    width: 130px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.item2 p {
+    margin: 0;
+    font-size: 130px;
+    padding-right: 100px;
+}
+
+.sub-item-container p {
+    margin: 0;
+    font-size: 41px;
+    padding-right: 113px;
+}
+
+.footer-sides {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end; 
+    flex-direction: row;  
+    height: 100px;
+}
+
+.text-info {
+    color: #b7b7b7;
+    padding-right: 11vh;
+    padding-bottom: 7.5vh;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.footer-items-container {
+    display: flex;
+    padding-bottom: 7.5vh;
+}
+
+.footer-item1 img {
+    height: 40px;
+    width: 30px;
+    padding-left: 11vh;
+}
+
+.footer-item2 p {
+    margin: 0;
+    color: #cccccc;
+    padding-top: 3.5px;
+    font-size: 22px;
+    padding-left: 12px;
+}
