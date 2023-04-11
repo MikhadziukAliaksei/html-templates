@@ -1,3 +1,26 @@
+* {
+    color: #fff;
+    font-size: 16.1858px;
+    font-weight: 600;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    letter-spacing: -0.005em;
+}
+
+body {
+    background: url(Assets/TestBG.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+
+    /*border: 3px solid green;
+    padding-left: 108px;
+    padding-right: 108px;
+    padding-top: 100px;
+    height: 1080px;
+    width: 1920px;*/
+}
+
 .title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -13,5 +36,94 @@
     background-clip: text;
     text-fill-color: transparent;
     box-sizing: border-box;
+    padding-left: 119px;
+    padding-right: 108px;
+    padding-top: 143px;
+}
 
+.label {
+    display: block;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.84px;
+    line-height: 27px;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: -0.005em;
+    padding-top: 10px;
+    background: radial-gradient(13.93% 53.85% at 8.21% 22.12%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(263.32deg, rgba(56, 239, 125, 0.2) 5.36%, rgba(180, 106, 255, 0) 84.78%), linear-gradient(176.65deg, rgba(31, 31, 31, 0.2) 2.77%, rgba(31, 31, 31, 0) 62.73%), #1DAF7D;
+    border-radius: 90.9999px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding-top: 80px;
+}
+
+.proposal_a,
+.proposal_b,
+.proposal_c {
+    height: 540px;
+    width: 420px;
+    background-color: #2e2d2d80;
+    border-radius: 50px;
+}
+
+.proposal-a-label {
+    background-color: #5b84c2;
+}
+
+.proposal-c-label {
+    background-color: #b46aff;
+}
+
+.proposal-a-label {
+    width: 380px;
+    margin-top: -17px;
+    margin-left: 20px;
+}
+.proposal-b-label {
+    width: 380px;
+    margin-top: -17px;
+    margin-left: 20px;
+}
+.proposal-c-label {
+    width: 380px;
+    margin-top: -17px;
+    margin-left: 20px;
+}
+
+.proposal-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-left: 30px;
+}   
+
+.prop-b-img {
+    filter: hue-rotate(-57deg);
+}
+
+.prop-c-img {
+    filter: hue-rotate(57deg);
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.text {
+    text-transform: uppercase;
+    font-size: 18px;
 }
